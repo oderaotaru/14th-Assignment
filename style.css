@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: grayscale(0.7);
+    /* filter: contrast(150%); */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    padding: 20 0;
+    line-height: 8px;
+    text-align: center;
+}
+.top p {
+    font-size: 14px;
+}
+.container {
+    width: 40%;
+    background-color: rgb(70, 68, 68);
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.input label {
+    padding: 25px 0px 6px;
+}
+.input input {
+    padding: 4px 0px 4px 10px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+}
+.input select {
+    padding: 4px 0px 4px 10px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.radio {
+    padding-top: 25px;
+    cursor: pointer;
+   
+}
+.check {
+    display: block;
+}
+textarea {
+    resize: none;
+    border-radius: 4px;
+    outline: none;
+}
+.foot {
+    padding-top: 25px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(20, 199, 20);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: rgb(58, 173, 58);
+}
+
+@media  screen and (max-width: 820px) {
+    .top {
+        width: 100%
+    }
+    .container {
+        width: 80%;
+    }
+}
+
+@media  screen and (max-width: 414px) {
+    .top {
+        width: 80%;
+    }
+    .container [
+        width: 100%;
+    ]
+}
