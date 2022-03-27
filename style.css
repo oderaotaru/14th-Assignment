@@ -19,7 +19,7 @@ main {
 }
 .top {
     padding: 20 0;
-    line-height: 8px;
+    /* line-height: 10px; */
     text-align: center;
 }
 .top p {
